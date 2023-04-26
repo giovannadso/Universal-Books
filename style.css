@@ -18,15 +18,39 @@ h2{
     font-family: mont;
 }
 
+h3{
+    color: white;
+    font-family: montsserat;
+}
+
+h4{
+    color: white;
+    font-family: mont;
+}
+
+h5{
+    color: darkgrey;
+    font-family: montsserat;
+
+}
+
+.Gl{
+    grid-area: 1 / 1 / 2 / 2;
+    color: black;
+    margin-left: 100px;
+    font-family: mont;
+}
+
 #cabeçalho{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     width: 100%;
     
 }
 #fundo{
     width: 100%;
-    height: 600vh;
+    height: 450vh;
     background-color: rgba(101, 136, 100, 1);
     display: flex;
     align-items: center;
@@ -35,7 +59,7 @@ h2{
 
 #container{
     width: 100%;
-    height: 570vh;
+    height: 435vh;
     background-color: whitesmoke;
     border-radius: 100px;
     
@@ -44,11 +68,11 @@ h2{
 #recomendações{
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 20% 20% 20% 20% 20%;
-    width: 95%;
+    width: 85%;
     height: 80vh;
     padding: 50px;
     display: grid;
-    
+    margin-left: 80px;
 
 }
 
@@ -67,16 +91,6 @@ h2{
     height: 45vh;
 }
 
-h3{
-    color: white;
-    font-family: montsserat;
-}
-
-h5{
-    color: darkgrey;
-    font-family: montsserat;
-
-}
 #titulo{
     grid-area: 4 / 2 / 6 / 3;
     margin-top: 50px;
@@ -86,3 +100,84 @@ h5{
     grid-area: 5 / 2 / 6 / 3;
     ;
 }
+
+
+#botões{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+.button-90{
+    align-items: center;
+  background-color: rgba(101, 136, 100, 1);
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  width: 150px;
+}
+
+.button-90:hover,
+.button-90:focus { 
+  background-color: rgba(76, 101, 75, 1);
+  color: #ffffff;
+}
+
+#ttl{
+    font-family: montsserat
+}
+#livros{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 10vh 60vh;
+    padding: 100px;
+}
+
+ #Li1{
+    grid-area: 2 / 1 / 3 / 2;
+    width: 80%;
+    height: 50vh;
+    margin-left: 20px;
+ }
+
+ #Li2{
+    grid-area: 2 / 2 / 3 / 3;
+    width: 80%;
+    height: 50vh;
+    margin-left: 20px;
+ }
+
+ #Li3{
+    grid-area: 2 / 3 / 3 / 4;
+    width: 80%;
+    height: 50vh;
+    margin-left: 20px;
+ }
+
+ #Li4{
+    grid-area: 2 / 4 / 3 / 5;
+    width: 80%;
+    height: 50vh;
+    margin-left: 20px;
+ }
+ 
