@@ -60,7 +60,11 @@ section button{
 }
 
 button:hover{
+<<<<<<< HEAD
+    background-color: black;
+=======
     background-color: green;
+>>>>>>> f6896af91124b741e330401307c25e134d4f86a0
     transition: cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 

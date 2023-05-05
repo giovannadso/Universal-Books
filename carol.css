@@ -83,19 +83,32 @@ main{
     display: flex;
 }
 #rodape{
+<<<<<<< HEAD
+    height: 8vh;
+=======
     height: 6vh;
+>>>>>>> f6896af91124b741e330401307c25e134d4f86a0
     width: 100%;
     justify-content: flex-end;
     display: flex;
 }
 .btn{
     padding: 10px 40px;
+<<<<<<< HEAD
+    width: 50px;
+=======
     width: 70px;
+>>>>>>> f6896af91124b741e330401307c25e134d4f86a0
     margin-right: 60px;
     color: aliceblue;
     background: rgba(101, 136, 100, 1);
     border: 7px black;
     border-radius: 20px;
+<<<<<<< HEAD
+    align-items: center;
+    justify-content: center;
+=======
+>>>>>>> f6896af91124b741e330401307c25e134d4f86a0
     text-align: center;
     user-select: none;
     cursor: pointer;
@@ -133,4 +146,7 @@ main{
 }
 
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> f6896af91124b741e330401307c25e134d4f86a0
