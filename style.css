@@ -1,170 +1,301 @@
-@font-face {
-    font-family: Schib;
-    src: url(Schibsted_Grotesk.zip);
-}
-
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
-#cabeca{
-    background-color: rgba(59, 81, 65, 1);
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    padding-right: 20px;
-    display: flex;
-    width: 100%;
-    height: 20vh;
+@font-face {
+    font-family: montsserat;
+    src: url(Montserrat-ExtraLight.ttf);
+    font-family: mont;
+    src: url(Montserrat-Bold.ttf);
 }
-
-#estante{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 150vh;
-}
-
-#estante2{
-    display: flex;
-    background-color: white;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 125vh;
-}
-
-#formulario{
-    background-color: rgba(59, 81, 65, 1);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 10px;
-    width: 80%;
-    opacity: 90%;
-    margin: 15px;
-    height: 115vh;
-    box-shadow: 0px 4px 57px 6px black;
-}
-
-#form{
-    background-color: rgba(59, 81, 65, 1);
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    height: 100vh;
-}
-
 h1{
-    color: white;
-    align-items: center;
-    font-family: Schib;
-    justify-content: center;
+    padding: 50px;
+    font-family: mont;
 }
 
-#idse{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-}
-
-#in{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-right: 43px;
-    width: 100%;
-}
-
-#enla{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    width: 100%;
-}
-
-#enin{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-right: 45px;
-    width: 100%;
-}
-
-#tela{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100vh;
-}
-
-#tein{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding-right: 40px;
-    width: 100vh;
-}
-
-#botao{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#footerr{
-    display: flex;
-    background-color: rgba(59, 81, 65, 1);
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 20vh;
-}
-
-#icons{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    width: 5%;
-    height: 10px;
-    size: 10vh;
+h2{
+    font-family: mont;
 }
 
 h3{
     color: white;
-    font-family: Schib;
-    margin-top: 25px;
+    font-family: montsserat;
+}
+
+h4{
+    color: white;
+    font-family: mont;
+}
+
+h5{
+    color: darkgrey;
+    font-family: montsserat;
+
+}
+
+.Gl{
+    grid-area: 1 / 1 / 2 / 2;
+    color: black;
     margin-left: 100px;
+    font-family: mont;
 }
 
-
-button{
-    border-radius: 10px;
-    background-color:  rgba(59, 81, 65, 1);
+#cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;   
 }
 
-.textField{
-    height: 10vh;
-    width: 40vw;
-    border: none;
-    border-bottom: 3px solid white;
+#icones{
+    display: flex;
+    justify-content: center;
+    margin-right: 90px;
+}
+
+#fundo{
+    width: 100%;
+    height: 415vh;
+    background-color: rgba(101, 136, 100, 1);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#container{
+    width: 100%;
+    height: 400vh;
+    background-color: whitesmoke;
+    border-radius: 100px;
     
+}
+
+#recomendações{
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    width: 85%;
+    height: 80vh;
+    padding: 50px;
+    display: grid;
+    margin-left: 80px;
+
+}
+
+#faixa{
+    grid-area: 4 / 1 / 6 / 4;
+    background-color: rgba(101, 136, 100, 1);
+    width: 100%;
+    height: 28vh;
+}
+
+#liv1{
+    height: 250px;
+    margin-left: 30px;
+    grid-area: 2 / 1 / 5 / 2;
+    width: 65%;
+    height: 45vh;
+}
+
+#titulo{
+    grid-area: 4 / 2 / 6 / 3;
+    margin-top: 50px;
+}
+
+#autor{
+    grid-area: 5 / 2 / 6 / 3;
+    ;
+}
+
+
+#botões{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+
+.button-90{
+    align-items: center;
+  background-color: rgba(101, 136, 100, 1);
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  width: 150px;
+}
+
+.button-90:hover,
+.button-90:focus { 
+  background-color: rgba(76, 101, 75, 1);
+  color: #ffffff;
+}
+
+#ttl{
+    font-family: montsserat
+}
+
+#livros{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 10vh 60vh;
+    padding: 50px;
+}
+
+
+ #Li1{
+    grid-area: 2 / 1 / 3 / 2;
+    width: 80%;
+    height: 50vh;
+    box-shadow: 0px 4px 50px 6px rgb(69, 68, 68);
+    border-radius: 10px;
+ }
+
+ #Li2{
+    grid-area: 2 / 2 / 3 / 3;
+    width: 80%;
+    height: 50vh;
+    margin-left: 20px;
+    box-shadow: 0px 4px 50px 6px rgb(69, 68, 68);
+    border-radius: 10px;
+ }
+
+ #Li3{
+    grid-area: 2 / 3 / 3 / 4;
+    width: 80%;
+    height: 50vh;
+    margin-left: 20px;
+    box-shadow: 0px 4px 50px 6px rgb(69, 68, 68);
+    border-radius: 10px;
+ }
+
+ #Li4{
+    grid-area: 2 / 4 / 3 / 5;
+    width: 80%;
+    height: 50vh;
+    margin-left: 20px;
+    box-shadow: 0px 4px 50px 6px rgb(69, 68, 68);
+    border-radius: 10px;
+ }
+ 
+ .button-80{
+    align-items: center;
+  background-color: rgba(101, 136, 100, 1);
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  width: 210px;
+  margin-left: 90px;
+}
+
+.button-80:hover,
+.button-80:focus { 
+  background-color: rgba(76, 101, 75, 1);
+  color: #ffffff;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    margin-left: 200px;
+  }
+  
+  .input {
+    border-style: none;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
     outline: none;
-}
+    border-radius: 50%;
+    transition: .5s ease-in-out;
+    background-color: rgba(101, 136, 100, 1);
+    box-shadow: 0px 0px 10px #f3f3f3;
+    padding-right: 40px;
+    color: #fff;
+  }
+  
+  .input::placeholder,
+  .input {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+  }
+  
+  .input::placeholder {
+    color: #8f8f8f;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    outline: none;
+    border-style: none;
+    border-radius: 50%;
+    pointer-events: painted;
+    background-color: transparent;
+    transition: .2s linear;
+  }
+  
+  .icon:focus ~ .input,
+  .input:focus {
+    box-shadow: none;
+    width: 250px;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 3px solid #fff;
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
 
-input{
-    background-color: rgba(59, 81, 65, 1);
-    color: white;
-}
 
-::placeholder{
-    color: white;
-}
+  
+  
+  
+  
