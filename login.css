@@ -320,3 +320,325 @@ a{
       transform: scale(0.9);
     }
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: you;
+    src: url(YouTubeSansDarkSemibold.otf);
+}
+
+@font-face {
+    font-family: you1;
+    src: url(YouTubeSansDarkLight.otf);
+}
+
+#uni{
+    display: flex;
+    font-family: you1;
+    color: black;
+}
+
+#titulo{
+    display: flex;
+    font-family: you;
+}
+
+#login{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 608px;
+}
+
+#login1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 10px solid rgba(101, 136, 100, 1);
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    height: 608px;
+    
+    background-size: 105vh;
+}
+
+input{
+    background-color: rgba(243, 222, 186, 1);
+}
+
+h5{
+    color: #666;
+}
+
+#quemsomos{
+    display: flex;
+    background-color: rgba(101, 136, 100, 1);
+    width: 50%;
+    height: 608px;
+    background-size: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+#white{
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: 80%;
+    height: 530px;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+#foto{
+    background-image: url(foto.jpeg);
+    background-size: 430px; 
+    width: 90%;
+    height: 250px;
+    border-radius: 15px;
+} 
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#email{
+    padding-right: 290px;
+}
+
+#senha{
+    padding-right: 290px;
+}
+
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+}
+
+.button2 {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: white;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: rgba(101, 136, 100, 1);
+    border: 1px solid rgba(101, 136, 100, 1);
+  }
+  
+  .button2:active {
+    color: rgba(101, 136, 100, 1);
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+               inset -4px -4px 12px #ffffff;
+  }
+  
+  .button2:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: black;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button2:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color:black black;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button2:hover {
+    color: white;
+    border: 1px solid black;
+  }
+  
+  .button2:hover:before {
+    top: -35%;
+    background-color: black;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+  .button2:hover:after {
+    top: -45%;
+    background-color:black;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+
+  #lembrar{
+    display: flex;
+    width: 55%;
+    height: 20px;
+    flex-direction: row;
+  }
+
+  #cadastro{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 90px;
+    margin-top: 5px;
+    color: black;
+  }
+
+  label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    padding-right: 120px;
+  }
+  
+  .checkbox-wrapper-4 * {
+    box-sizing: border-box;
+  }
+  
+  .checkbox-wrapper-4 .cbx {
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    padding: 6px 8px;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+    display: inline-block;
+  }
+  
+  .checkbox-wrapper-4 .cbx:not(:last-child) {
+    margin-right: 6px;
+  }
+  
+  .checkbox-wrapper-4 .cbx:hover {
+    background: rgba(0,119,255,0.06);
+  }
+  
+  .checkbox-wrapper-4 .cbx span {
+    float: left;
+    vertical-align: middle;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .checkbox-wrapper-4 .cbx span:first-child {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    transform: scale(1);
+    border: 1px solid #cccfdb;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 1px rgba(0,16,75,0.05);
+  }
+  
+  .checkbox-wrapper-4 .cbx span:first-child svg {
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    fill: none;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 16px;
+    stroke-dashoffset: 16px;
+    transition: all 0.3s ease;
+    transition-delay: 0.1s;
+    transform: translate3d(0, 0, 0);
+  }
+  
+  .checkbox-wrapper-4 .cbx span:last-child {
+    padding-left: 8px;
+    line-height: 18px;
+  }
+  
+  .checkbox-wrapper-4 .cbx:hover span:first-child {
+    border-color: rgba(103, 93, 80, 1);
+  }
+  
+  .checkbox-wrapper-4 .inp-cbx {
+    position: absolute;
+    visibility: hidden;
+  }
+  
+  .checkbox-wrapper-4 .inp-cbx:checked + .cbx span:first-child {
+    background: rgba(103, 93, 80, 1);
+    border-color: rgba(103, 93, 80, 1);
+    animation: wave-4 0.4s ease;
+  }
+  
+  .checkbox-wrapper-4 .inp-cbx:checked + .cbx span:first-child svg {
+    stroke-dashoffset: 0;
+  }
+  
+  .checkbox-wrapper-4 .inline-svg {
+    position: absolute;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    user-select: none;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .checkbox-wrapper-4 .cbx {
+      width: 100%;
+      display: inline-block;
+    }
+  }
+  
+  @-moz-keyframes wave-4 {
+    50% {
+      transform: scale(0.9);
+    }
+  }
+  
+  @-webkit-keyframes wave-4 {
+    50% {
+      transform: scale(0.9);
+    }
+  }
+  
+  @-o-keyframes wave-4 {
+    50% {
+      transform: scale(0.9);
+    }
+  }
+  
+  @keyframes wave-4 {
+    50% {
+      transform: scale(0.9);
+    }
+}
