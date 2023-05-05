@@ -1,0 +1,136 @@
+
+.fundo{
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    width: 400px;
+    height: 300px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: -1;
+}
+.fundobaixo{
+    position: absolute;
+    top: 80%;
+    left: -10%;
+    width: 400px;
+    height: 300px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    display: flex;
+    z-index: -1;
+    align-items: end;
+}
+header{
+    box-sizing: border-box;
+    margin-left: 0;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 5px 35px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+p{
+    font-size: 15px;
+    line-height: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    overflow:hidden;
+}
+main{
+    width: 100%;
+    height: 60vh;
+}
+#li1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    padding-left: 2%;
+    
+    
+}
+#txt1{
+  
+   margin: 30px;
+}
+#li2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 25vh;
+    width: 101%;
+    scroll-padding-top: 20px;
+    padding-left: 2%;
+    
+}
+#txt2{
+   margin-left: 40px;
+   
+   margin: 30px;
+}
+#mokotos{
+    
+    margin-top: 5px;
+    display: flex;
+}
+#rodape{
+    height: 6vh;
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+}
+.btn{
+    padding: 10px 40px;
+    width: 70px;
+    margin-right: 60px;
+    color: aliceblue;
+    background: rgba(101, 136, 100, 1);
+    border: 7px black;
+    border-radius: 20px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.btn:hover{
+    background-color: rgb(37, 53, 37);
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1)
+}
+#lixo{
+    
+    width: 70%;
+    height: 50px;
+    display: flex;
+    align-items: normal;
+    justify-content: flex-end;
+}
+.lixo{
+    padding: 15px 20px;
+    width: 20px;
+    color: aliceblue;
+   
+    border: 2px black;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+}
+.lixo:hover{
+    background-color: rgba(101, 136, 100, 1);
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1)
+}
+
+
+
